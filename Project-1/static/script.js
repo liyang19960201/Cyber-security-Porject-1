@@ -1,6 +1,4 @@
 function add_item() {
-
-    
     let item = document.getElementById("box");
     let list_item = document.getElementById("list_item");
     if(item.value != ""){
@@ -23,7 +21,7 @@ function add_item() {
  
     }
     else{
-      console.log('ERROR: Something unexpected happened: Check views.py from server/pages/views. Check also script.js from static line #27')
+      console.log('ERROR: Something unexpected happened: Check views.py from server/pages/views. Check also script.js from static line #24')
      
       alert("plz add a value to item");
     }
